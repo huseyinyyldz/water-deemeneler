@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murat Su | Premium Su Çözümleri</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Murat Su Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anasayfa">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#urunler">Ürünlerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#neden-biz">Neden Biz?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bayilik">Bayi Ol</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#iletisim">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="anasayfa" class="hero-section">
+        <div class="video-bg">
+            <video autoplay loop muted playsinline>
+                <source src="water-bg.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-8 mx-auto text-center text-white">
+                    <h1 class="display-3 fw-bold mb-4" data-aos="fade-up">Sivas'ın Premium Kaynak Suyu</h1>
+                    <p class="lead mb-5" data-aos="fade-up" data-aos-delay="100">
+                        1985'den beri Sivas'ın eşsiz doğasından sofranıza
+                    </p>
+                    <a href="#urunler" class="btn btn-light btn-lg rounded-pill px-5" data-aos="fade-up" data-aos-delay="200">
+                        Ürünlerimizi Keşfedin
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımızda Section -->
+    <section id="hakkimizda" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">Hakkımızda</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="position-relative">
+                        <img src="fabrika.jpg" alt="Fabrika" class="img-fluid rounded-4 shadow-lg">
+                        <div class="experience-badge">
+                            <span class="h2 fw-bold">20+</span>
+                            <span class="small">Yıllık Tecrübe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3 class="h2 mb-4">Doğal Kaynaktan Sofranıza</h3>
+                    <p class="lead text-muted mb-4">
+                        1985 yılından bu yana, Sivas'ın 2100m yükseklikteki Yıldız Dağı eteklerindeki doğal kaynaklarımızdan elde ettiğimiz suyu, 
+                        en yüksek kalite standartlarında işleyerek Türkiye'nin dört bir yanına ulaştırıyoruz.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-6">
+                            <div class="achievement-card">
+                                <div class="h1 fw-bold text-primary mb-2">150+</div>
+                                <p class="mb-0">Bayi</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="achievement-card">
+                                <div class="h1 fw-bold text-primary mb-2">1M+</div>
+                                <p class="mb-0">Mutlu Müşteri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ürünlerimiz Section -->
+<section id="urunler" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">Ürünlerimiz</h2>
+        
+        <!-- Ürün Kategorileri -->
+        <ul class="nav nav-pills justify-content-center mb-5" id="urunlerTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#damacana">
+                    Damacana Su
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pet">
+                    Pet Şişe
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#cam">
+                    Cam Şişe
+                </button>
+            </li>
+        </ul>
+
+        <!-- Ürün Kartları -->
+        <div class="tab-content" id="urunlerTabContent">
+            <!-- Damacana Ürünleri -->
+            <div class="tab-pane fade show active" id="damacana">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="damacana-19l.jpg" alt="19L Damacana" class="img-fluid">
+                                <div class="product-overlay">
+                                    <a href="#" class="btn btn-light">Detaylar</a>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <h3 class="product-title">19L Damacana Su</h3>
+                                <p class="product-text">Premium kaynak suyu, ev ve ofis kullanımı için ideal</p>
+                                <div class="product-features">
+                                    <span><i class="bi bi-droplet-fill"></i> 19 Litre</span>
+                                    <span><i class="bi bi-shield-check"></i> TSE Onaylı</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pet Şişe Ürünleri -->
+            <div class="tab-pane fade" id="pet">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="pet-05l.jpg" alt="0.5L Pet Şişe" class="img-fluid">
+                                <div class="product-overlay">
+                                    <a href="#" class="btn btn-light">Detaylar</a>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <h3 class="product-title">0.5L Pet Şişe</h3>
+                                <p class="product-text">Pratik boyut, günlük kullanım için ideal</p>
+                                <div class="product-features">
+                                    <span><i class="bi bi-droplet-fill"></i> 0.5 Litre</span>
+                                    <span><i class="bi bi-box"></i> 12'li Paket</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="pet-1.5l.jpg" alt="1.5L Pet Şişe" class="img-fluid">
+                                <div class="product-overlay">
+                                    <a href="#" class="btn btn-light">Detaylar</a>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <h3 class="product-title">1.5L Pet Şişe</h3>
+                                <p class="product-text">Aile boyu kullanım için ideal</p>
+                                <div class="product-features">
+                                    <span><i class="bi bi-droplet-fill"></i> 1.5 Litre</span>
+                                    <span><i class="bi bi-box"></i> 6'lı Paket</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="pet-5l.jpg" alt="5L Pet Şişe" class="img-fluid">
+                                <div class="product-overlay">
+                                    <a href="#" class="btn btn-light">Detaylar</a>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <h3 class="product-title">5L Pet Şişe</h3>
+                                <p class="product-text">Ekonomik boy, uzun süreli kullanım</p>
+                                <div class="product-features">
+                                    <span><i class="bi bi-droplet-fill"></i> 5 Litre</span>
+                                    <span><i class="bi bi-box"></i> 2'li Paket</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cam Şişe Ürünleri -->
+            <div class="tab-pane fade" id="cam">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="cam-330ml.jpg" alt="330ml Cam Şişe" class="img-fluid">
+                                <div class="product-overlay">
+                                    <a href="#" class="btn btn-light">Detaylar</a>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <h3 class="product-title">330ml Cam Şişe</h3>
+                                <p class="product-text">Premium sunum için özel tasarım</p>
+                                <div class="product-features">
+                                    <span><i class="bi bi-droplet-fill"></i> 330 ml</span>
+                                    <span><i class="bi bi-box"></i> 12'li Paket</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Kalite Politikalarımız -->
+    <section id="kalite" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">Kalite Politikalarımız</h2>
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="quality-card">
+                        <div class="quality-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Üretim Standartları</h3>
+                        <p class="mb-0">En yüksek kalite standartlarında üretim yapıyoruz. TSE, ISO 9001 ve FSSC 22000 belgelerimizle kalitemizi belgelendiriyoruz.</p>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="quality-card">
+                        <div class="quality-icon">
+                            <i class="bi bi-water"></i>
+                        </div>
+                        <h3 class="h4 mb-3">Su Kalitesi</h3>
+                        <p class="mb-0">Düzenli laboratuvar analizleri ile suyumuzun kalitesini sürekli kontrol ediyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bayilik Fırsatları -->
+    <section id="bayilik" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">Bayilik Fırsatları</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <h3 class="h2 mb-4">Ailemize Katılın</h3>
+                    <p class="lead mb-4">Türkiye'nin en hızlı büyüyen su markalarından biri olarak, sizleri de ailemize katılmaya davet ediyoruz.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            <span>Düşük yatırım maliyeti</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            <span>Yüksek kar marjı</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            <span>Sürekli destek ve eğitim</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <form id="bayilikForm">
+                                <div class="mb-3">
+                                    <label class="form-label">Ad Soyad</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Telefon</label>
+                                    <input type="tel" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">E-posta</label>
+                                    <input type="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">İl</label>
+                                    <select class="form-select" required>
+                                        <option value="">Seçiniz</option>
+                                        <option value="sivas">Sivas</option>
+                                        <option value="kayseri">Kayseri</option>
+                                        <option value="tokat">Tokat</option>
+                                        <option value="yozgat">Yozgat</option>
+                                        <option value="erzincan">Erzincan</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Başvuru Yap</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SSS Section -->
+    <section id="sss" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-aos="fade-up">Sıkça Sorulan Sorular</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="sssAccordion">
+                        <div class="accordion-item border-0 shadow-sm mb-3">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sss1">
+                                    Suyunuzun pH değeri nedir?
+                                </button>
+                            </h3>
+                            <div id="sss1" class="accordion-collapse collapse show" data-bs-parent="#sssAccordion">
+                                <div class="accordion-body">
+                                    Suyumuzun pH değeri 7.5 olup, insan vücudu için ideal değerdedir.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 shadow-sm mb-3">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sss2">
+                                    Minimum sipariş miktarı nedir?
+                                </button>
+                            </h3>
+                            <div id="sss2" class="accordion-collapse collapse" data-bs-parent="#sssAccordion">
+                                <div class="accordion-body">
+                                    Minimum sipariş miktarımız 2 damacana veya 1 koli (12 adet) 0.5L/1.5L pet şişedir.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 shadow-sm mb-3">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sss3">
+                                    Sivas'ın hangi bölgesinden su çıkarıyorsunuz?
+                                </button>
+                            </h3>
+                            <div id="sss3" class="accordion-collapse collapse" data-bs-parent="#sssAccordion">
+                                <div class="accordion-body">
+                                    Suyumuz, Yıldız Dağı eteklerindeki doğal kaynaklardan, 2100m yükseklikten çıkarılmaktadır. Bu bölge, Sivas'ın en temiz ve bakir alanlarından biridir.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h3 class="h5 mb-4">İletişim Bilgileri</h3>
+                    <ul class="list-unstyled footer-contact">
+                        <li class="mb-3">
+                            <i class="bi bi-geo-alt-fill me-2"></i>
+                            Karşıyaka Mah. Su Cad. No:58 Merkez/Sivas
+                        </li>
+                        <li class="mb-3">
+                            <i class="bi bi-telephone-fill me-2"></i>
+                            0346 123 45 67
+                        </li>
+                        <li class="mb-3">
+                            <i class="bi bi-envelope-fill me-2"></i>
+                            info@muratsu.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="h5 mb-4">Hızlı Linkler</h3>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="#hakkimizda">Hakkımızda</a></li>
+                        <li class="mb-2"><a href="#urunler">Ürünlerimiz</a></li>
+                        <li class="mb-2"><a href="#bayilik">Bayi Ol</a></li>
+                        <li class="mb-2"><a href="#sss">SSS</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="h5 mb-4">Sosyal Medya</h3>
+                    <div class="social-links">
+                        <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                    <div class="mt-4">
+                        <img src="logo-white.png" alt="AquaPure Logo" height="40">
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2024 Murat Su. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <div class="tap-to-top">
+        <div class="bottle float-animation">
+            <div class="bottle-cap"></div>
+            <div class="bottle-neck"></div>
+            <div class="bottle-body">
+                <div class="water"></div>
+                <div class="bottle-details">
+                    <div class="bottle-ring"></div>
+                    <div class="bottle-ring"></div>
+                    <div class="bottle-ring"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
